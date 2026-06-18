@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Studio • Kreativitas Tanpa Batas</title>
+    <meta name="description" content="Studio kreatif futuristik dengan sentuhan galaksi">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-ring"></div>
+        <div class="loader-text">Membuka Portal Kosmik...</div>
+    </div>
+
+    <!-- Cursor Kustom -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Navigasi -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Cosmic</span>
+                <span class="logo-text accent">Studio</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#services" class="nav-link">Layanan</a></li>
+                <li><a href="#portfolio" class="nav-link">Portofolio</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimoni</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn-primary">Mulai Proyek</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Kreativitas Tanpa Batas
+            </div>
+            <h1 class="hero-title">
+                <span class="gradient-text">Desain</span> yang
+                <span class="gradient-text2">Menginspirasi</span>
+                <br>Dunia <span class="highlight">Kreatif</span>
+            </h1>
+            <p class="hero-desc">
+                Kami menghadirkan solusi kreatif futuristik untuk brand Anda.
+                Dari desain visual hingga pengalaman digital yang tak terlupakan.
+            </p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn-primary btn-large">
+                    <span>Lihat Karya</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="#contact" class="btn-secondary btn-large">
+                    <span>Konsultasi</span>
+                    <span class="btn-icon">✦</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="150">0</span>
+                    <span class="stat-label">Proyek Selesai</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="98">0</span>
+                    <span class="stat-label">Kepuasan Klien</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-label">Penghargaan</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+            <div class="hero-orb"></div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <span class="section-tag">✦ Layanan</span>
+            <h2 class="section-title">Keahlian <span class="gradient-text">Kreatif</span> Kami</h2>
+            <p class="section-desc">Solusi komprehensif untuk kebutuhan digital Anda</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" data-delay="0">
+                <div class="service-icon">🎨</div>
+                <h3>Desain Grafis</h3>
+                <p>Identitas visual, branding, ilustrasi, dan desain kreatif yang memukau.</p>
+                <ul class="service-features">
+                    <li>Logo & Brand Identity</li>
+                    <li>Social Media Design</li>
+                    <li>Packaging Design</li>
+                </ul>
+                <a href="#" class="service-link">Pelajari →</a>
+            </div>
+            <div class="service-card" data-delay="100">
+                <div class="service-icon">💻</div>
+                <h3>Web Development</h3>
+                <p>Website modern, responsif, dan interaktif dengan performa terbaik.</p>
+                <ul class="service-features">
+                    <li>Landing Pages</li>
+                    <li>Web Applications</li>
+                    <li>E-commerce</li>
+                </ul>
+                <a href="#" class="service-link">Pelajari →</a>
+            </div>
+            <div class="service-card" data-delay="200">
+                <div class="service-icon">📱</div>
+                <h3>UI/UX Design</h3>
+                <p>Pengalaman pengguna yang intuitif dengan antarmuka yang indah.</p>
+                <ul class="service-features">
+                    <li>User Research</li>
+                    <li>Wireframing</li>
+                    <li>Prototyping</li>
+                </ul>
+                <a href="#" class="service-link">Pelajari →</a>
+            </div>
+            <div class="service-card" data-delay="300">
+                <div class="service-icon">🚀</div>
+                <h3>Digital Marketing</h3>
+                <p>Strategi pemasaran digital yang tepat sasaran dan terukur.</p>
+                <ul class="service-features">
+                    <li>SEO Optimization</li>
+                    <li>Content Strategy</li>
+                    <li>Analytics & Reporting</li>
+                </ul>
+                <a href="#" class="service-link">Pelajari →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <span class="section-tag">✦ Portofolio</span>
+            <h2 class="section-title">Karya <span class="gradient-text">Terbaik</span> Kami</h2>
+            <p class="section-desc">Beberapa proyek yang telah kami selesaikan dengan penuh dedikasi</p>
+        </div>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="design">Desain</button>
+            <button class="filter-btn" data-filter="web">Website</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <div class="portfolio-overlay">
+                        <h4>Identitas Brand</h4>
+                        <p>Desain logo & visual identity</p>
+                        <span class="portfolio-tag">Desain</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <div class="portfolio-overlay">
+                        <h4>E-commerce Platform</h4>
+                        <p>Website belanja modern</p>
+                        <span class="portfolio-tag">Website</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="branding">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <div class="portfolio-overlay">
+                        <h4>Brand Guidelines</h4>
+                        <p>Sistem identitas merek</p>
+                        <span class="portfolio-tag">Branding</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="marketing">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    <div class="portfolio-overlay">
+                        <h4>Campaign Digital</h4>
+                        <p>Strategi marketing viral</p>
+                        <span class="portfolio-tag">Marketing</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                    <div class="portfolio-overlay">
+                        <h4>Illustration Series</h4>
+                        <p>Koleksi ilustrasi digital</p>
+                        <span class="portfolio-tag">Desain</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">
+                    <div class="portfolio-overlay">
+                        <h4>Dashboard Analytics</h4>
+                        <p>UI dashboard interaktif</p>
+                        <span class="portfolio-tag">Website</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <span class="section-tag">✦ Testimoni</span>
+            <h2 class="section-title">Apa Kata <span class="gradient-text">Klien</span> Kami</h2>
+            <p class="section-desc">Pengalaman nyata dari mereka yang telah bekerja dengan kami</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">
+                    "Cosmic Studio berhasil mengubah visi kami menjadi realitas yang luar biasa. 
+                    Proses kreatif mereka sangat menginspirasi!"
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar" style="background: #667eea;">A</div>
+                    <div>
+                        <h4>Andi Wijaya</h4>
+                        <span>CEO, TechStart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">
+                    "Tim yang sangat profesional dan kreatif. Website kami kini menjadi 
+                    salah satu yang terbaik di industri."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar" style="background: #f093fb;">S</div>
+                    <div>
+                        <h4>Sarah Cahyani</h4>
+                        <span>Marketing Director, BrandX</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">
+                    "Kolaborasi dengan Cosmic Studio sangat menyenangkan. Mereka benar-benar 
+                    memahami kebutuhan kami."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar" style="background: #4facfe;">R</div>
+                    <div>
+                        <h4>Rudi Hartono</h4>
+                        <span>Founder, CreativeHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <span class="section-tag">✦ Kontak</span>
+            <h2 class="section-title">Mari <span class="gradient-text">Berkolaborasi</span></h2>
+            <p class="section-desc">Hubungi kami untuk mendiskusikan proyek kreatif Anda</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hello@cosmicstudio.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <h4>Telepon</h4>
+                        <p>+62 812 3456 7890</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <h4>Lokasi</h4>
+                        <p>Jakarta, Indonesia</p>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <a href="#" class="social-link">IG</a>
+                    <a href="#" class="social-link">TW</a>
+                    <a href="#" class="social-link">FB</a>
+                    <a href="#" class="social-link">YT</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Nama Lengkap" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subjek">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Pesan Anda..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-large">
+                    <span>Kirim Pesan</span>
+                    <span class="btn-icon">✧</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Cosmic</span>
+                <span class="logo-text accent">Studio</span>
+                <p>Menciptakan keajaiban visual untuk dunia digital</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Beranda</a>
+                <a href="#services">Layanan</a>
+                <a href="#portfolio">Portofolio</a>
+                <a href="#contact">Kontak</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Email Anda">
+                    <button>→</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cosmic Studio. All rights reserved.</p>
+            <p>Dibuat dengan ✦ dan kopi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
