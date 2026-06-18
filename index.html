@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>BloomSpace • Temukan Ketenangan</title>
+    <meta name="description" content="Platform wellness untuk menemukan ketenangan dan kebahagiaan">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading" class="loading-screen">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Menemukan ketenangan...</p>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="nav-header">
+            <div class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Bloom<span class="accent">Space</span></span>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <div class="menu-items">
+                <a href="#home" class="menu-link active">Beranda</a>
+                <a href="#benefits" class="menu-link">Manfaat</a>
+                <a href="#programs" class="menu-link">Program</a>
+                <a href="#testimonials" class="menu-link">Testimoni</a>
+                <a href="#resources" class="menu-link">Sumber Daya</a>
+                <a href="#contact" class="menu-link">Hubungi</a>
+            </div>
+            <div class="menu-footer">
+                <p class="menu-cta">Mulai Perjalananmu</p>
+                <div class="menu-social">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="YouTube">▶️</a>
+                    <a href="#" aria-label="Spotify">🎵</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=1000&fit=crop" 
+                 alt="Wanita meditasi di alam" 
+                 class="hero-image"
+                 loading="eager"
+                 width="800" height="1000">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-badge">✨ Mulai Hari Ini</span>
+            <h1 class="hero-title">
+                Temukan<br>
+                <span class="gradient-text">Ketenangan</span><br>
+                dalam Diri
+            </h1>
+            <p class="hero-desc">
+                Platform wellness yang membantumu menemukan kebahagiaan, 
+                mengurangi stres, dan hidup lebih bermakna.
+            </p>
+            <div class="hero-actions">
+                <a href="#programs" class="btn-primary">
+                    <span>Mulai Sekarang</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+                <a href="#benefits" class="btn-secondary">Pelajari</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-label">Pengguna Bahagia</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">4.9</span>
+                    <span class="stat-label">Rating ⭐</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="section-header">
+            <span class="section-tag">🌱 Manfaat</span>
+            <h2 class="section-title">Mengapa <span class="gradient-text">BloomSpace</span>?</h2>
+            <p class="section-desc">Rasakan perubahan positif dalam hidupmu</p>
+        </div>
+
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🧘</div>
+                <h3>Kurangi Stres</h3>
+                <p>Teknik meditasi terbukti ilmiah untuk menurunkan tingkat stres harian</p>
+                <div class="benefit-stats">
+                    <span>↓ 67% stres</span>
+                </div>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">😊</div>
+                <h3>Kebahagiaan</h3>
+                <p>Tingkatkan mood dan temukan kebahagiaan dalam keseharian</p>
+                <div class="benefit-stats">
+                    <span>↑ 82% bahagia</span>
+                </div>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">💪</div>
+                <h3>Kesehatan Mental</h3>
+                <p>Bangun ketahanan mental dan emosional yang lebih kuat</p>
+                <div class="benefit-stats">
+                    <span>↑ 73% fokus</span>
+                </div>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">🌙</div>
+                <h3>Tidur Berkualitas</h3>
+                <p>Rutinitas malam untuk tidur lebih nyenyak dan bangun segar</p>
+                <div class="benefit-stats">
+                    <span>↑ 91% kualitas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="section-header">
+            <span class="section-tag">📋 Program</span>
+            <h2 class="section-title">Pilih <span class="gradient-text">Perjalanan</span>mu</h2>
+            <p class="section-desc">Program yang dirancang khusus untuk kebutuhanmu</p>
+        </div>
+
+        <div class="programs-slider">
+            <div class="program-card">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop" 
+                     alt="Meditasi pagi" 
+                     class="program-image"
+                     loading="lazy"
+                     width="600" height="400">
+                <div class="program-content">
+                    <span class="program-tag">Pemula</span>
+                    <h3>Meditasi 7 Hari</h3>
+                    <p>Mulai perjalanan meditasimu dengan panduan 7 hari</p>
+                    <div class="program-meta">
+                        <span>⏱️ 10 menit/hari</span>
+                        <span>🎯 7 sesi</span>
+                    </div>
+                    <a href="#" class="program-link">Ikuti Program →</a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&h=400&fit=crop" 
+                     alt="Yoga" 
+                     class="program-image"
+                     loading="lazy"
+                     width="600" height="400">
+                <div class="program-content">
+                    <span class="program-tag" style="background: #f59e0b;">Intermediete</span>
+                    <h3>Yoga & Meditasi</h3>
+                    <p>Kombinasi gerakan yoga dan meditasi untuk keseimbangan</p>
+                    <div class="program-meta">
+                        <span>⏱️ 20 menit/hari</span>
+                        <span>🎯 14 sesi</span>
+                    </div>
+                    <a href="#" class="program-link">Ikuti Program →</a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop" 
+                     alt="Mindfulness" 
+                     class="program-image"
+                     loading="lazy"
+                     width="600" height="400">
+                <div class="program-content">
+                    <span class="program-tag" style="background: #8b5cf6;">Mahir</span>
+                    <h3>Mindfulness Mastery</h3>
+                    <p>Kuasai teknik mindfulness untuk kehidupan yang lebih sadar</p>
+                    <div class="program-meta">
+                        <span>⏱️ 30 menit/hari</span>
+                        <span>🎯 21 sesi</span>
+                    </div>
+                    <a href="#" class="program-link">Ikuti Program →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <span class="section-tag">💬 Testimoni</span>
+            <h2 class="section-title">Apa Kata <span class="gradient-text">Mereka</span></h2>
+            <p class="section-desc">Cerita nyata dari pengguna BloomSpace</p>
+        </div>
+
+        <div class="testimonials-list">
+            <div class="testimonial-item">
+                <div class="testimonial-avatar">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" 
+                         alt="Sarah" 
+                         loading="lazy"
+                         width="100" height="100">
+                </div>
+                <div class="testimonial-body">
+                    <div class="testimonial-header">
+                        <h4>Sarah Dewi</h4>
+                        <span class="testimonial-role">Guru, 34 tahun</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "BloomSpace mengubah hidupku. Aku jadi lebih tenang menghadapi 
+                        hari-hari yang padat. Terima kasih!"
+                    </p>
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-avatar">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" 
+                         alt="Budi" 
+                         loading="lazy"
+                         width="100" height="100">
+                </div>
+                <div class="testimonial-body">
+                    <div class="testimonial-header">
+                        <h4>Budi Santoso</h4>
+                        <span class="testimonial-role">Pengusaha, 42 tahun</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Program mindfulness-nya luar biasa. Stres pekerjaan berkurang 
+                        drastis dan fokusku meningkat."
+                    </p>
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-avatar">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" 
+                         alt="Maya" 
+                         loading="lazy"
+                         width="100" height="100">
+                </div>
+                <div class="testimonial-body">
+                    <div class="testimonial-header">
+                        <h4>Maya Putri</h4>
+                        <span class="testimonial-role">Mahasiswa, 22 tahun</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Aku jadi lebih bahagia dan produktif. Sangat direkomendasikan 
+                        untuk semua kalangan!"
+                    </p>
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+        <div class="section-header">
+            <span class="section-tag">📚 Sumber Daya</span>
+            <h2 class="section-title">Koleksi <span class="gradient-text">Bermanfaat</span></h2>
+            <p class="section-desc">Artikel dan panduan untuk perjalanan wellness-mu</p>
+        </div>
+
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-image">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop" 
+                         alt="Meditasi" 
+                         loading="lazy"
+                         width="400" height="300">
+                </div>
+                <div class="resource-content">
+                    <span class="resource-category">Panduan</span>
+                    <h3>10 Teknik Meditasi untuk Pemula</h3>
+                    <p>Mulai perjalanan meditasimu dengan 10 teknik sederhana</p>
+                    <a href="#" class="resource-link">Baca Selengkapnya →</a>
+                </div>
+            </div>
+
+            <div class="resource-card">
+                <div class="resource-image">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop" 
+                         alt="Mindfulness" 
+                         loading="lazy"
+                         width="400" height="300">
+                </div>
+                <div class="resource-content">
+                    <span class="resource-category">Artikel</span>
+                    <h3>Mindfulness di Era Digital</h3>
+                    <p>Bagaimana tetap tenang di tengah gempuran informasi</p>
+                    <a href="#" class="resource-link">Baca Selengkapnya →</a>
+                </div>
+            </div>
+
+            <div class="resource-card">
+                <div class="resource-image">
+                    <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=400&h=300&fit=crop" 
+                         alt="Yoga" 
+                         loading="lazy"
+                         width="400" height="300">
+                </div>
+                <div class="resource-content">
+                    <span class="resource-category">Video</span>
+                    <h3>Rutinitas Yoga 15 Menit</h3>
+                    <p>Gerakan yoga sederhana untuk memulai pagi hari</p>
+                    <a href="#" class="resource-link">Baca Selengkapnya →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-wrapper">
+            <div class="contact-image">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=800&fit=crop" 
+                     alt="Hubungi kami" 
+                     loading="lazy"
+                     width="600" height="800">
+            </div>
+            <div class="contact-content">
+                <span class="section-tag">📬 Hubungi</span>
+                <h2 class="section-title">Mulai <span class="gradient-text">Perjalanan</span>mu</h2>
+                <p class="section-desc">Ada pertanyaan? Kami siap membantu</p>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" placeholder="Masukkan namamu" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="email@kamu.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" rows="4" placeholder="Ceritakan kebutuhanmu..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">
+                        <span>Kirim Pesan</span>
+                        <span class="btn-arrow">✧</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Bloom<span class="accent">Space</span></span>
+                <p>Temukan ketenangan dan kebahagiaan dalam hidupmu</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="YouTube">▶️</a>
+                    <a href="#" aria-label="TikTok">🎵</a>
+                    <a href="#" aria-label="Spotify">🎧</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Program</h4>
+                <a href="#">Meditasi 7 Hari</a>
+                <a href="#">Yoga & Meditasi</a>
+                <a href="#">Mindfulness Mastery</a>
+                <a href="#">Tidur Nyenyak</a>
+            </div>
+            <div class="footer-links">
+                <h4>Perusahaan</h4>
+                <a href="#">Tentang Kami</a>
+                <a href="#">Karir</a>
+                <a href="#">Blog</a>
+                <a href="#">Kebijakan Privasi</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Dapatkan Update</h4>
+                <p>Kirim tips wellness setiap minggu</p>
+                <div class="newsletter-input">
+                    <input type="email" placeholder="Email kamu">
+                    <button>→</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 BloomSpace. All rights reserved.</p>
+            <p>Dibuat dengan ❤️ untuk kesejahteraan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
